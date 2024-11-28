@@ -68,3 +68,7 @@ gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
 gem "sassc-rails" # Uncomment this line
+# Gemfile
+gem 'faker'
+gem 'open-uri'
+gem 'json'
