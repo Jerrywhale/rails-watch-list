@@ -12,7 +12,7 @@
 # Liste des films
 require 'open-uri'
 require 'json'
-Movie.destroy_all
+Movie.destroy_all+
 
 Movie.find_or_create_by!(title: 'Wonder Woman 1984') do |movie|
   movie.overview = 'Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s'
